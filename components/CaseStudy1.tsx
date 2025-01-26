@@ -10,7 +10,7 @@ export default function CaseStudySection() {
   ]
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-16">
+    <section id="case-studies" className="w-full py-12 md:py-24 lg:py-16">
       <div className="container px-4 md:px-6 mx-auto max-w-[1200px]">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="flex flex-col justify-between space-y-4">
@@ -27,16 +27,17 @@ export default function CaseStudySection() {
           </div>
 
           {/* Features List - aligned bottom-right */}
-          <div className="flex flex-col justify-end items-end space-y-4">
-            <ul className="grid gap-2 tracking-tight">
-              {features.map((feature, i) => (
-                <li key={i} className="flex items-center gap-3">
-                  <Check className="h-4 w-4 text-primary" />
-                  <span>{feature}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <div className="flex flex-col justify-end items-start sm:items-end space-y-4">
+          <ul className="grid gap-2 tracking-tight">
+            {features.map((feature, i) => (
+              <li key={i} className="flex items-center gap-3">
+                <Check className="h-4 w-4 text-primary" />
+                <span>{feature}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         </div>
         <div className="mt-12 rounded-lg border bg-blue-50 p-4">
           <Image

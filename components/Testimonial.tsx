@@ -11,7 +11,7 @@ interface TestimonialProps {
 
 function Testimonial({ quote, author, role, company, companyLogo }: TestimonialProps) {
   return (
-    <Card className="h-full bg-grey-100">
+    <Card className="h-full">
       <CardContent className="flex h-full flex-col justify-between gap-6 p-6">
         <div className="space-y-6">
           <Image
@@ -61,7 +61,7 @@ export default function TestimonialSection() {
   return (
 <section className="container py-16 flex flex-col items-center justify-center mx-auto">
 <div className="text-center mb-12">
-        <h2 className="text-3xl font-semibold -tracking-[3px] sm:text-4xl md:text-5xl">Researchers love using Unriddle</h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-4xl">Researchers love using Unriddle</h2>
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mx-auto w-full max-w-screen-lg px-4">
         {testimonials.map((testimonial, index) => (

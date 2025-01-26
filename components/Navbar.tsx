@@ -16,16 +16,16 @@ export default function Navbar() {
         {/* Navigation links - hidden on mobile */}
         <div className="hidden md:flex items-center gap-2 flex-1">
           <Link
-            href="#features"
+            href="#case-studies"
             className="text-sm font-semibold hover:bg-neutral-100 hover:rounded-lg px-3 py-1 transition duration-300"
           >
-            Features
+            Case Studies
           </Link>
           <Link
-            href="#pricing"
+            href="#services"
             className="text-sm font-semibold hover:bg-neutral-100 hover:rounded-lg px-3 py-1 transition duration-300"
           >
-            Pricing
+            Services
           </Link>
           <Link
             href="#faqs"

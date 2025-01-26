@@ -7,25 +7,22 @@ import { AuroraText } from "./ui/aurora-text"
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center text-center py-10 bg-white">
-      {/* <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out">
-        <span className="font-medium tracking-[-0.4px]">✨ Premier Automation Agency ✨</span>
-      </AnimatedShinyText> */}
-      
-      <h1 className="text-4xl font-bold -tracking-[2.8px] md:text-5xl lg:text-7xl leading-[100px]">
-      <AuroraText>Automate</AuroraText> your ops.
-    </h1>
+    <div className="flex flex-col items-center justify-center text-center py-10 px-4 bg-white">
+
+      <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold -tracking-[1.5px] lg:-tracking-[2.8px] leading-[40px] md:leading-[80px] lg:leading-[80px]">
+        <AuroraText>Automate</AuroraText> your ops.
+      </h1>
 
       <BlurFade>
-        <h1 className="text-6xl font-semibold text-black leading-[60px] -tracking-[3px] mb-4 ">
+        <h2 className="text-3xl sm:text-5xl md:text-6xl tracking-tighter font-semibold text-black leading-[40px] md:leading-[60px] mb-4">
           See all progress in one place.
-        </h1>
-        <p className="text-2xl text-black text-center font-medium leading-[30px] tracking-[-1px] max-w-2xl mx-auto mb-8">
-          We automate your tech stack and build custom dashboards for your business to skyrocket your productivity.
+        </h2>
+        <p className="text-lg sm:text-xl md:text-2xl text-black text-center font-medium leading-[22px] md:leading-[30px] tracking-[-1px] max-w-3xl mx-auto mb-8">
+          We automate your tech stack and build custom dashboards for your business to skyrocket your productivity
         </p>
       </BlurFade>
 
-      <div className="max-w-[1000px] p-4 bg-[#fae8e8] rounded-xl">
+      <div className="max-w-[1000px] p-2 lg:p-4 bg-[#fae8e8] rounded-xl">
         <HeroVideoDialog
           className="dark:hidden block"
           animationStyle="from-center"
@@ -37,8 +34,8 @@ export default function Hero() {
 
       {/* Logo tray */}
       <div className="w-full px-4 mt-24 mb-8 max-w-[1200px] mx-auto">
-        <h3 className="text-lg text-center tracking-[-0.8px] text-neutral-800 font-medium mb-6">
-          Whatever your tech stack is, we can automate it.
+        <h3 className="text-base lg:text-lg text-center tracking-[-0.8px] text-neutral-800 font-medium mb-6">
+          Whatever your tech stack is, we can automate it
         </h3>
         <div className="grid grid-cols-4 md:grid-cols-8 gap-8">
           {/* SVG logos */}
