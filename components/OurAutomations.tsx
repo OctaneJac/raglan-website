@@ -14,7 +14,7 @@ export default function OurAutomations() {
             </p>
           </div>
           
-          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:gap-12 w-full px-4">
+          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:gap-12 w-full px-4 max-w-[1200px]">
             <div className="flex flex-col items-start gap-4">
               <div className="rounded-lg p-2">
                 <FileSearch className="h-10 w-10" />
@@ -52,7 +52,7 @@ export default function OurAutomations() {
           </div>
 
           {/* Duplicate row */}
-          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:gap-12 w-full mt-12 px-4">
+          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:gap-12 w-full mt-12 px-4 max-w-[1200px]">
             <div className="flex flex-col items-start gap-4">
               <div className="rounded-lg p-2">
                 <FileSearch className="h-10 w-10" />

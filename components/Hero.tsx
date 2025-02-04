@@ -17,7 +17,7 @@ export default function Hero() {
         <h2 className="text-3xl sm:text-5xl md:text-6xl tracking-tighter font-semibold text-black leading-[40px] md:leading-[60px] mb-4">
           See all progress in one place.
         </h2>
-        <p className="text-lg sm:text-xl md:text-2xl text-black text-center font-medium leading-[22px] md:leading-[30px] tracking-[-1px] max-w-3xl mx-auto mb-8">
+        <p className="text-lg sm:text-xl md:text-2xl text-black text-center font-normal leading-[22px] md:leading-[30px] tracking-[-1px] max-w-3xl mx-auto mb-8">
           We automate your tech stack and build custom dashboards for your business to skyrocket your productivity
         </p>
       </BlurFade>
