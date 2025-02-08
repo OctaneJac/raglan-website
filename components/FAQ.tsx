@@ -2,29 +2,29 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "What is Unriddle?",
+    question: "Do you guys user zapier/make/other tool?",
     answer:
-      "Unriddle is an AI-powered platform that helps you analyze and understand complex data and documents quickly and efficiently.",
+      "Yes we use Zapier and Make, but also Python, NodeJS/Javascript and many more. We figure out which tool will work best for your needs and use that.",
   },
   {
-    question: "Do you offer a free trial?",
+    question: "What do you guys charge?",
     answer:
-      "Yes, we offer a free trial that allows you to explore all of Unriddle's features without any commitment. No credit card required.",
+      "We don't have a set pricing because automations vary a lot in scope and size, but our general range is from $1k-$5k.",
   },
   {
-    question: "Can I trust Unriddle to provide accurate answers?",
+    question: "Do you guys offer an audit?",
     answer:
-      "Unriddle uses advanced AI algorithms and is trained on verified data sources to ensure high accuracy. However, we always recommend reviewing the results for your specific use case.",
+      "Yes, we conduct a free audit before starting any project. This is to make sure you don't pay a penny before we can figure out what aspects of your business can actually be automated."
   },
   {
-    question: "What file types does Unriddle support?",
+    question: "I want to automate my business but I don't know exactly what that would look like.",
     answer:
-      "Unriddle supports a wide range of file formats including PDF, DOC, DOCX, TXT, CSV, and more. We're constantly adding support for new file types.",
+      "That's alright. If you can define to us the problems you're facing, we can setup solutions for you. We have a lot of experience in this field and can help you figure out what you need.",
   },
   {
     question: "What is your refund policy?",
     answer:
-      "We offer a 30-day money-back guarantee. If you're not satisfied with Unriddle, you can request a full refund within 30 days of your purchase.",
+      "We offer a 100% refund if the automation does not work, is buggy or fails outright. We want to make sure you're happy with the work we do.",
   },
 ]
 

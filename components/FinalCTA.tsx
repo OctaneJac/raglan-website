@@ -13,7 +13,7 @@ export default function FinalCTA() {
           </p>
           <div className="flex flex-col gap-2 sm:flex-row">
             <Button variant="outline" size="lg">
-              Book a free call
+              Book a free audit
             </Button>
           </div>
         </div>

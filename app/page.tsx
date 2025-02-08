@@ -2,6 +2,7 @@ import CaseStudy1 from "@/components/CaseStudy1";
 import FAQSection from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import CaseStudy2 from "@/components/CaseStudy2";
+import CaseStudy3 from "@/components/CaseStudy3";
 import Hero from "@/components/Hero";
 import TestimonialSection from "@/components/Testimonial";
 import OurAutomations from "@/components/OurAutomations";
@@ -12,6 +13,7 @@ export default function Home() {
     <Hero />
     <CaseStudy1/>
     <CaseStudy2/>
+    <CaseStudy3/>
     <TestimonialSection/>
     <OurAutomations/>
     <FAQSection/>

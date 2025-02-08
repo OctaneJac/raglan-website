@@ -3,10 +3,10 @@ import Image from "next/image"
 
 export default function CaseStudySection() {
   const features = [
-    "Source highlighting",
-    "PDFs, Word Documents, PowerPoints, images",
-    "Optical Character Recognition (OCR)",
-    "Multiple documents in one assistant",
+    "24/7 live automation",
+    "Data is updated daily",
+    "Custom password protected dashboard per client",
+    "Tracks delayed sales",
   ]
 
   return (
@@ -17,11 +17,10 @@ export default function CaseStudySection() {
             <div className="space-y-2">
               <p className="text-base text-[#017AFF] font-semibold tracking-tight text-left">Case Study #1</p>
               <h2 className="text-xl font-bold tracking-tighter -tracking-2 sm:text-4xl text-left leading-tight">
-                Find and understand info in documents in milliseconds
+                99.9% accurate revenue tracking automation for ADDX Studio
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-600 text-left -tracking-[0.6px] leading-tight">
-                Generate an AI assistant on top of any document or group of documents. Ask questions to quickly extract
-                and summarize data.
+                Addx Studio run a content based performance offer, but tracking sales from content is hard. We solved it.
               </p>
             </div>
           </div>
@@ -39,9 +38,9 @@ export default function CaseStudySection() {
         </div>
 
         </div>
-        <div className="mt-12 rounded-lg border bg-blue-50 p-4">
+        <div className="mt-12 rounded-lg bg-blue-50 p-4">
           <Image
-            src="/PlaceHolder.png"
+            src="/Case Study 1.png"
             alt="Document analysis interface showing AI-powered document processing"
             className="rounded-lg"
             width={1200}

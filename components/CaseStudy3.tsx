@@ -3,10 +3,10 @@ import Image from "next/image"
 
 export default function CaseStudySection() {
   const features = [
-    "Tracks competitor prices",
-    "Stores a price history per product",
-    "Notifies when prices change",
-    "Notifies when stock drops",
+    "Custom website development for Dan",
+    "Onboarding automated",
+    "Billing automated",
+    "Customer support automated",
   ]
 
   return (
@@ -15,12 +15,12 @@ export default function CaseStudySection() {
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="flex flex-col justify-between space-y-4">
             <div className="space-y-2">
-              <p className="text-base text-[#BE5AF2] font-semibold tracking-tight text-left">Case Study #2</p>
+              <p className="text-base text-[#F24E62] font-semibold tracking-tight text-left">Case Study #3</p>
               <h2 className="text-xl font-bold tracking-tighter -tracking-2 sm:text-4xl text-left leading-tight">
-               Price Comparison Automation for Ecommerce Store
+                Suite of flows for Dan Krosby&apos;s Mentorship offer
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-600 text-left -tracking-[0.6px] leading-tight">
-                Ecommerce stores need to keep up with the competition. We built a tool that automatically tracks competitor prices...and more.
+                Dan sells a mentorship online, but keeping up with new customers is a hassle. We automated it.
               </p>
             </div>
           </div>
@@ -38,9 +38,9 @@ export default function CaseStudySection() {
         </div>
 
         </div>
-        <div className="mt-12 rounded-lg bg-purple-100 p-4">
+        <div className="mt-12 rounded-lg bg-red-50 p-4">
           <Image
-            src="/Case Study 2.png"
+            src="/Case Study 3.png"
             alt="Document analysis interface showing AI-powered document processing"
             className="rounded-lg"
             width={1200}

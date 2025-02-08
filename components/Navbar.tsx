@@ -37,7 +37,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <Button variant="black" className="ml-auto">
-          Book Discovery Call
+          Book a Free Audit
         </Button>
       </div>
     </nav>
