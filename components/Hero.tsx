@@ -9,12 +9,12 @@ export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center text-center py-10 px-4 bg-white">
 
-      <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold -tracking-[1.5px] lg:-tracking-[2.8px] leading-[40px] md:leading-[80px] lg:leading-[80px]">
+      <h1 className="text-[40px] md:text-5xl lg:text-7xl font-bold -tracking-[1.5px] lg:-tracking-[2.8px] leading-[40px] md:leading-[80px] lg:leading-[80px]">
         <AuroraText>Automate</AuroraText> your ops.
       </h1>
 
       <BlurFade>
-        <h2 className="text-3xl sm:text-5xl md:text-6xl tracking-tighter font-semibold text-black leading-[40px] md:leading-[60px] mb-4">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl tracking-tighter font-semibold text-black leading-[40px] md:leading-[60px] mb-4">
           See all progress in one place.
         </h2>
         <p className="text-lg sm:text-xl md:text-2xl text-black text-center font-normal leading-[22px] md:leading-[30px] tracking-[-1px] max-w-3xl mx-auto mb-8">
@@ -34,10 +34,10 @@ export default function Hero() {
 
       {/* Logo tray */}
       <div className="w-full px-4 mt-24 mb-8 max-w-[1200px] mx-auto">
-        <h3 className="text-base lg:text-lg text-center tracking-[-0.8px] text-neutral-800 font-medium mb-6">
+        <h3 className="text-[14px] lg:text-lg text-center tracking-[-0.8px] text-neutral-800 font-medium  md:mb-6">
           Whatever your tech stack is, we can automate it
         </h3>
-        <div className="grid grid-cols-4 md:grid-cols-8 gap-8">
+        <div className="grid grid-cols-4 md:grid-cols-8 gap-2 md:gap-8">
           {/* SVG logos */}
           <div className="h-16 flex items-center justify-center rounded-lg">
             <Image

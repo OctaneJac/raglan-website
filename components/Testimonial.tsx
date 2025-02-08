@@ -35,7 +35,7 @@ function Testimonial({ quote, author, role, company, companyLogo }: TestimonialP
 export default function TestimonialSection() {
   const testimonials = [
     {
-      quote: "These guys saved me hours of messy mannual work trying to figure out sales and onboarding. I can't recommend this agency enough.",
+      quote: "Uzair saved me hours of messy mannual work trying to figure out sales and onboarding. I can't recommend his agency enough.",
       author: "Dan Krosby",
       role: "Mentor at Wepreneurs",
       company: "Stanford",
@@ -50,7 +50,7 @@ export default function TestimonialSection() {
     },
     {
       quote:
-        "These guys setup my website and all other onboarding flows in a week. Real top performers.",
+        "Uzair and his team setup my website and all other onboarding flows in a week. Real top performers right here.",
       author: "SniperADZ",
       role: "Founder at FundedFast",
       company: "Cedars Sinai",

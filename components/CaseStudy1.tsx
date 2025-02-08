@@ -17,7 +17,7 @@ export default function CaseStudySection() {
             <div className="space-y-2">
               <p className="text-base text-[#017AFF] font-semibold tracking-tight text-left">Case Study #1</p>
               <h2 className="text-xl font-bold tracking-tighter -tracking-2 sm:text-4xl text-left leading-tight">
-                99.9% accurate revenue tracking automation for ADDX Studio
+                95% accurate revenue tracking automation for ADDX Studio
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-600 text-left -tracking-[0.6px] leading-tight">
                 Addx Studio run a content based performance offer, but tracking sales from content is hard. We solved it.
