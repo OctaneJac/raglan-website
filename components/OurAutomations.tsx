@@ -17,7 +17,7 @@ export default function OurAutomations() {
                 <Zap className="h-10 w-10" />
               </div>
               <div className="space-y-2 ">
-                <h3 className="text-xl font-bold">Onboarding Automations</h3>
+                <h3 className="text-xl font-bold">Onboarding</h3>
                 <p className="text-muted-foreground">
                   Instantly send emails, information, invoices and more and soon as clients sign up. 
                 </p>

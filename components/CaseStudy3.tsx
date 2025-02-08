@@ -43,8 +43,8 @@ export default function CaseStudySection() {
             src="/Case Study 3.png"
             alt="Document analysis interface showing AI-powered document processing"
             className="rounded-lg"
-            width={1200}
-            height={600}
+            width={1800}
+            height={800}
           />
         </div>
       </div>
