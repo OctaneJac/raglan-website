@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function FinalCTA() {
   return (
@@ -12,9 +13,10 @@ export default function FinalCTA() {
             Put repetitive tasks on autopilot and focus on what really matters: growth.
           </p>
           <div className="flex flex-col gap-2 sm:flex-row">
-            <Button variant="outline" size="lg">
-              Book a free audit
-            </Button>
+          <Button variant="outline" className="ml-auto" asChild>
+        <Link href="https://form.typeform.com/to/pOKPT68t">Book a Free Audit 
+        </Link>
+        </Button>
           </div>
         </div>
       </div>

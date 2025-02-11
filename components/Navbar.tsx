@@ -36,8 +36,8 @@ export default function Navbar() {
         </div>
 
         {/* CTA Button */}
-        <Button variant="black" className="ml-auto">
-          Book a Free Audit
+        <Button variant="black" className="ml-auto" asChild>
+        <Link href="https://form.typeform.com/to/pOKPT68t">Book a Free Audit</Link>
         </Button>
       </div>
     </nav>
