@@ -20,14 +20,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7K6EBHZQ9"></script>
-        <script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-W7K6EBHZQ9"></Script>
+        <Script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
         
           gtag('config', 'G-W7K6EBHZQ9');
-        </script>
+        </Script>
       </head>
       <body className={inter.className}>
           <Navbar />
