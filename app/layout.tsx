@@ -19,20 +19,31 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-W7K6EBHZQ9"></Script>
-        <Script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-W7K6EBHZQ9');
-        </Script>
-      </head>
+      <head />
       <body className={inter.className}>
-          <Navbar />
-          <div>{children}</div>
-          <Footer />
+        {/* ✅ Google Analytics Script */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-W7K6EBHZQ9"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-W7K6EBHZQ9', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+
+        <Navbar />
+        <div>{children}</div>
+        <Footer />
       </body>
     </html>
   );
