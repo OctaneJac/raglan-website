@@ -19,9 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head 
-        <Script (function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('JMvZ8gnjv9da2pOd');
-        />
+      <head />
       <body className={inter.className}>
         {/* ✅ Google Analytics Script */}
         <Script
@@ -39,6 +37,30 @@ export default function RootLayout({
               gtag('config', 'G-W7K6EBHZQ9', {
                 page_path: window.location.pathname,
               });
+            `,
+          }}
+        />
+        {/* ✅ LiveFeed / LeadFeeder tracking script */}
+        <Script
+          id="leadfeeder-tracking"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(ss, ex) {
+                window.ldfdr = window.ldfdr || function() {
+                  (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments));
+                };
+                (function(d, s) {
+                  var fs = d.getElementsByTagName(s)[0];
+                  function ce(src) {
+                    var cs = d.createElement(s);
+                    cs.src = src;
+                    cs.async = 1;
+                    fs.parentNode.insertBefore(cs, fs);
+                  }
+                  ce('https://sc.lfeeder.com/lftracker_v1_' + ss + (ex ? '_' + ex : '') + '.js');
+                })(document, 'script');
+              })('JMvZ8gnjv9da2pOd');
             `,
           }}
         />
