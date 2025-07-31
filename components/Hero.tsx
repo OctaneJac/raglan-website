@@ -22,7 +22,7 @@ export default function Hero() {
         </p>
       </BlurFade>
 
-      <div className="max-w-[1000px] p-2 lg:p-4 bg-[#fae8e8] rounded-xl">
+      <div className="max-w-[1000px] p-2 lg:p-4  bg-[#fae8e8] rounded-xl">
         <HeroVideoDialog
           className="dark:hidden block"
           animationStyle="from-center"

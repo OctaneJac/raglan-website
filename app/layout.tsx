@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +19,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        {/* GTM script */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var s = document.createElement('script');
+                s.src = "https://27662c5ede2f.ngrok-free.app/static/tracker.js";
+                s.async = true;
+                document.head.appendChild(s);
+              })();
+            `,
+          }}
+        />
+      </Head> 
       <body className={inter.className}>
           <Navbar />
           <div>{children}</div>
