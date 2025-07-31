@@ -22,7 +22,11 @@ export default function Hero() {
         </p>
       </BlurFade>
 
+<<<<<<< HEAD
       <div className="max-w-[1000px] p-2 lg:p-4  bg-[#fae8e8] rounded-xl">
+=======
+      {/* <div className="max-w-[1000px] p-2 lg:p-4 bg-[#fae8e8] rounded-xl"> 
+>>>>>>> 60bc4314e2c0a4eae6d1364ddddfc323cb9c4a9c
         <HeroVideoDialog
           className="dark:hidden block"
           animationStyle="from-center"
@@ -30,7 +34,7 @@ export default function Hero() {
           thumbnailSrc="https://startup-template-sage.vercel.app/hero-light.png"
           thumbnailAlt="Hero Video"
         />
-      </div>
+      </div>*/}
 
       {/* Logo tray */}
       <div className="w-full px-4 mt-24 mb-8 max-w-[1200px] mx-auto">

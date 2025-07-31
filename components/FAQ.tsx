@@ -2,9 +2,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "Do you guys user zapier/make/other tool?",
+    question: "Do you guys use zapier/make/other tool?",
     answer:
-      "Yes we use Zapier and Make, but also Python, NodeJS/Javascript and many more. We figure out which tool will work best for your needs and use that.",
+      "Yes we use Zapier, Make and N8N, but also Python, NodeJS/Javascript and many more. We figure out which tool will work best for your needs and use that.",
   },
   {
     question: "What do you guys charge?",
