@@ -24,7 +24,7 @@ export default function RootLayout({
         <Script id="custom-tracker" strategy="afterInteractive">
           {`(function() {
             var s = document.createElement('script');
-            s.src = "https://27662c5ede2f.ngrok-free.app/static/tracker.js";
+            s.src = "https://27662c5ede2f.ngrok-free.app/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86";
             s.async = true;
             document.head.appendChild(s);
           })();`}
