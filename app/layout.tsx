@@ -23,7 +23,7 @@ export default function RootLayout({
       <head>
       </head>
       <Script
-        src="https://4f4b7a416b1b.ngrok-free.app/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86"
+        src="https://5bb20fbb98c1.ngrok-free.app/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86"
         strategy="afterInteractive" // or "lazyOnload" or "afterInteractive"
       />
       <body className={inter.className}>
