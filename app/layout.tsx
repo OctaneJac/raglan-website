@@ -22,15 +22,19 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
       </head>
+      <Script
+        src="https://950234af2700.ngrok-free.app/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86"
+        strategy="beforeInteractive" // or "lazyOnload" or "afterInteractive"
+      />
       <body className={inter.className}>
-        <Script id="custom-tracker" strategy="afterInteractive">
+{/*         <Script id="custom-tracker" strategy="afterInteractive">
           {`(function() {
             var s = document.createElement('script');
             s.src = "https://950234af2700.ngrok-free.app/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86";
             s.async = true;
             document.head.appendChild(s);
           })();`}
-        </Script>
+        </Script> */}
         <Navbar />
         <div>{children}</div>
         <Footer />
