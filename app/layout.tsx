@@ -21,27 +21,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-{/*         <Script id="custom-tracker" strategy="afterInteractive">
+        <Script id="custom-tracker" strategy="afterInteractive">
           {`(function() {
             var s = document.createElement('script');
             s.src = "https://aa257b55d88c.ngrok-free.app/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86";
             s.async = true;
             document.head.appendChild(s);
           })();`}
-        </Script> */}
-          <Script
-            id="custom-tracker"
-            src="https://aa257b55d88c.ngrok-free.app/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86"
-            strategy="afterInteractive"
-            type="application/javascript"
-            onError={(e) => {
-              console.error('Failed to load tracker.js:', e);
-              console.log('Error details:', e.message, e.target.src);
-            }}
-            onLoad={() => {
-              console.log('tracker.js loaded successfully');
-            }}
-          />
+        </Script>
       </head>
       <body className={inter.className}>
         <Navbar />
