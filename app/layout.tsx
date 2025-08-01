@@ -29,14 +29,19 @@ export default function RootLayout({
             document.head.appendChild(s);
           })();`}
         </Script> */}
-        <script
+      <Script
           id="custom-tracker"
           src="https://aa257b55d88c.ngrok-free.app/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86"
-          async
+          strategy="afterInteractive"
           type="application/javascript"
-          onerror="console.error('Failed to load tracker.js:', event)"
-          onload="console.log('tracker.js loaded successfully')"
-        ></script>
+          onError={(e) => {
+            console.error('Failed to load tracker.js:', e);
+            console.log('Error details:', e.message, e.target.src);
+          }}
+          onLoad={() => {
+            console.log('tracker.js loaded successfully');
+          }}
+        />
       </head>
       <body className={inter.className}>
         <Navbar />
