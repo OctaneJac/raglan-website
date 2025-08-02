@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Script from "next/script";
-import scriptInjector from "@/components/Injector";
+import ScriptInjector from "@/components/ScriptInjector";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +31,7 @@ export default function RootLayout({
             document.head.appendChild(s);
           })();`}
         </Script> */}
-        <scriptInjector />
+        <ScriptInjector />
         <Navbar />
         <div>{children}</div>
         <Footer />
