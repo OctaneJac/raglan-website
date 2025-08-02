@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Script from "next/script";
-
+import scriptInjector from "@/components/Injector";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,10 +22,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
       </head>
-      <Script
-        src="https://rnjbj-205-164-156-19.a.free.pinggy.link/static/tracker.js?funnel_id=e49262ca-ed87-47bb-ade6-545a020f9b86"
-        strategy="afterInteractive" // or "lazyOnload" or "afterInteractive"
-      />
       <body className={inter.className}>
 {/*         <Script id="custom-tracker" strategy="afterInteractive">
           {`(function() {
@@ -35,6 +31,7 @@ export default function RootLayout({
             document.head.appendChild(s);
           })();`}
         </Script> */}
+        <scriptInjector />
         <Navbar />
         <div>{children}</div>
         <Footer />
